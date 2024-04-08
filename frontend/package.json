@@ -106,7 +106,7 @@
     "start-developer": "concurrently \"react-scripts start\" \"node public/server.js\""
   },
   "engines": {
-    "node": "16.18.0",
+    "node": "20.x",
     "npm": "8.19.2"
   },  
   "resolutions": {
