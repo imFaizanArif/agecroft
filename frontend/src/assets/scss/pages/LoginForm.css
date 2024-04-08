@@ -1,0 +1,39 @@
+.w-10 {
+    width: 15%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.text-red {
+    color: rgba(255, 0, 0, 0.671);
+}
+
+.mt-1 {
+    margin-top: 4px;
+}
+.mt-4 {
+    margin-top: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+}
+.mb-8 {
+    margin-bottom: 32px;
+}
+
+.my-4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.login-card .login-main .theme-form h4, .login-card .login-main .theme-form .h4 {
+    text-align: center;
+    margin-bottom: 16px;
+}

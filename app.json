@@ -1,0 +1,21 @@
+{
+    "name": "Agecroft Capital",
+    "description": "Loan Servicing App",
+    "repository": "https://github.com/jonesmatr/Agecroft-Capital.git",
+    "keywords": ["node", "react", "heroku"],
+    "buildpacks": [
+      {
+        "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
+      },
+      {
+        "url": "heroku/nodejs"
+      }
+    ],
+    "environments": {
+      "test": {
+        "env": {
+          "PROJECT_PATH": "."
+        }
+      }
+    }
+  }

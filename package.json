@@ -1,0 +1,17 @@
+{
+    "name": "agecroft-capital",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "npm run start --prefix frontend"
+    },
+    "workspaces": [
+        "frontend"
+    ],
+    "dependencies": {
+        "react": "17.0.2"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    }
+}
